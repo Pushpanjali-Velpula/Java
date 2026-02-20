@@ -36,10 +36,7 @@ class Main {
             System.out.println("Invalid Day");
             return;
         }
-        String[] days = {
-            "Monday", "Tuesday", "Wednesday",
-            "Thursday", "Friday", "Saturday", "Sunday"
-        };
+        String[] days = {"Monday", "Tuesday", "Wednesday","Thursday", "Friday", "Saturday", "Sunday"};
         int dayIndex = (N - 1) % 7;
         System.out.println(days[dayIndex]);
         sc.close();

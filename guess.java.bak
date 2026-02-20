@@ -6,7 +6,7 @@ class basic{
 		do{
 			int a=sc.nextInt();
 			if(a==143){
-				System.out.println("YOU GOT IT...😘❤️😍💕🥰");
+				System.out.println("YOU GOT IT...");
 				break;
 			}
 			else{
