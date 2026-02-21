@@ -7,5 +7,6 @@ class even{
 		{
 			System.out.println(i);
 		}
+		sc.close();
 	}
 }

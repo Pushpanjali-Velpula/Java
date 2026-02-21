@@ -28,5 +28,6 @@ public class JaggedArrayExample {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

@@ -17,11 +17,19 @@ Input: 45 | Output: F*/
 
 import java.util.Scanner;
 
-class abc{
-    public static void main (String[] args){
-		Scanner sc=new Scanner(System.in);
-		int num=sc.nextInt();
-		char op=(num>90)?'A':(num>80)?'B':(num>70)?'C':(num>60)?'D':'F';
-		System.out.println(op);
-	}
+class ternary {
+    public static void main(String[] args) {
+
+        try (Scanner sc = new Scanner(System.in)) {
+
+            int num = sc.nextInt();
+
+            char op = (num > 90) ? 'A' :
+                      (num > 80) ? 'B' :
+                      (num > 70) ? 'C' :
+                      (num > 60) ? 'D' : 'F';
+
+            System.out.println(op);
+        }
+    }
 }

@@ -12,5 +12,6 @@ public class replaceSubstring {
             index = sb.indexOf(oldSub, index + newSub.length());
         }
         System.out.println(sb.toString());
+        sc.close();
     }   
 }

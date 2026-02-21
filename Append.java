@@ -8,5 +8,6 @@ class Append {
         StringBuilder sb = new StringBuilder(s1);   
         sb.insert(pos, s2);
         System.out.println(sb.toString());
+        sc.close();
     }
 }

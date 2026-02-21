@@ -19,7 +19,7 @@ Input: 2025 366 | Output: Common Year\nInvalid Day*/
 
 import java.util.Scanner;
 
-class Main {
+class leap {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int year = sc.nextInt();

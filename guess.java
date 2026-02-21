@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class basic{
+class guess{
     public static void main (String[] args){
 		Scanner sc=new Scanner(System.in);
 		do{
@@ -13,5 +13,6 @@ class basic{
 				System.out.println("Enter valid number");
 			}
 		}while(true);
+		sc.close();
 	}
 }

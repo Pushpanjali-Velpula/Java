@@ -8,5 +8,6 @@ public class Concatenation {
             result += i;
         } 
         System.out.println(result);
+        sc.close();
     }
 } 

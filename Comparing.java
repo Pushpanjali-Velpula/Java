@@ -26,5 +26,6 @@ public class Comparing {
             }
         }
         System.out.println(flag);
+        sc.close();
     }
 }

@@ -18,6 +18,7 @@ class Menu{
 			}
 		}while(order!=5);
 		System.out.print("Full");
+		sc.close();
 	}
 }
 		

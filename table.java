@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class basic{
+class table{
     public static void main (String[] args){
 		Scanner sc=new Scanner(System.in);
 		//int n=sc.nextInt();
@@ -8,5 +8,6 @@ class basic{
 		{
 			System.out.println(i+"*"+5+"="+(i*5));
 		}
+		sc.close();
 	}
 }
