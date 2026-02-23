@@ -18,6 +18,7 @@ import java.util.Scanner;
             }
             
         }
-System.out.println(sb);
+        System.out.println(sb);
+        sc.close();
     }
  }

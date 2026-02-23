@@ -34,6 +34,7 @@ class leap {
             System.out.println("Common Year");
         if ((isLeap && N > 366) || (!isLeap && N > 365) || N < 1) {
             System.out.println("Invalid Day");
+            sc.close();
             return;
         }
         String[] days = {"Monday", "Tuesday", "Wednesday","Thursday", "Friday", "Saturday", "Sunday"};
