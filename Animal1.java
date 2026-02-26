@@ -4,6 +4,7 @@ public class Animal1 {
     }
 }
 class Dog extends Animal1{
+    @Override
     void speak(){
         super.speak();
         System.out.println("Dog created");
